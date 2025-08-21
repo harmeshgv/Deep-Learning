@@ -28,8 +28,8 @@ class SLP:
 
 
 iris = load_iris()
-X = iris.data[:100, :2]
-Y = iris.target[:100]
+X = iris.data
+Y = iris.target
 y = np.where(Y == 0, -1, 1) 
 
 print(X)
